@@ -1,0 +1,51 @@
+{
+  "required": true,
+  "minVersion": "0.8.3",
+  "package": "ru.luminar.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "luminar.refmap.json",
+  "client": [
+    "GameRendererMixin",
+    "MinecraftMixin",
+    "accessors.BossOverlayGuiAccessor",
+    "accessors.FrustumOtdai",
+    "accessors.MinecraftAccessor",
+    "commands.CommandDispatcherMixin",
+    "draggables.DraggingMixin",
+    "events.overlay.BosslineMixin",
+    "events.overlay.GameRendererMixin",
+    "events.overlay.IngameGuiMixin",
+    "events.overlay.OverlayMixin",
+    "events.overlay.PlayNetHandlerMixin",
+    "events.packet.NetworkManagerMixin",
+    "events.player.ClientPlayerEntityMixin",
+    "events.render.IngameGuiMixin",
+    "events.render.WorldRendererMixin",
+    "functions.AspectMixin",
+    "functions.ChinaHatMixin",
+    "functions.HealingHelperMixin",
+    "functions.HitColorMixin",
+    "functions.MixinEntityRendererManager",
+    "functions.animations.AnimationsMixinFirstPerson",
+    "functions.animations.AnimationsMixinLiving",
+    "functions.globals.PlayerTabOverlayGuiMixin",
+    "functions.pvpsafe.PvpSafeButton",
+    "functions.pvpsafe.PvpSafeMixin",
+    "functions.streamermode.DebugOverlayGuiMixin",
+    "functions.streamermode.MixinIngameGui",
+    "functions.thirdperson.MixinCamera",
+    "functions.worldtweaks.WorldTweaksFogColor",
+    "functions.worldtweaks.WorldTweaksPacketMixin",
+    "functions.worldtweaks.WorldTweaksWorldRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ConfigSaveMixin",
+    "MixinCooldownTracker",
+    "accessors.CooldownAccessor",
+    "functions.streamermode.ITextComponentMixin",
+    "functions.thirdperson.MixinEntity"
+  ]
+}

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Specification-Title: luminar
+Specification-Vendor: luminarsareus
+Specification-Version: 1
+Implementation-Title: luminar-master
+Implementation-Version: 0.3.1
+Implementation-Vendor: luminarsareus
+Implementation-Timestamp: 2025-08-15T19:44:04+0300
+MixinConfigs: luminar.mixins.json
+
